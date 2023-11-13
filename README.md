@@ -8,16 +8,6 @@ Madoiの機能を使って、カードのめくる動作を共有しています
 <html lang="ja">
 <head>
 <meta charset="utf8">
-<style>
-#logDiv {
-    overflow: scroll;
-    resize: vertical;
-    height: 400px;
-    border: solid 1px;
-    padding: 4;
-    border-radius: 4px;
-}
-</style>
 </head>
 <body>
 <img id="card" data-no="1" data-state="ura" src="ura.jpg" width="320">
