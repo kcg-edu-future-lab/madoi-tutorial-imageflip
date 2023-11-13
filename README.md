@@ -34,7 +34,6 @@ window.addEventListener("load", ()=>{
 	m.setHandler("flip", no=>{
 		const card = document.querySelector(`img[data-no='${no}']`);
 		const state = card.attributes["data-state"].value;
-		console.log(state);
 		if(state == "ura"){
 			card.attributes["data-state"].value = "omote";
 			card.src = "omote.jpg";
